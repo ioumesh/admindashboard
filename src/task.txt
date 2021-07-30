@@ -1,0 +1,15 @@
+#1) create react app and clean directory
+
+#2) install package(Sass)
+ npm i sass
+
+#3)Libraries (Material icons, recharts)
+ npm install @material-ui/core
+ npm install @material-ui/icons
+ npm install recharts
+
+#4)add font family to index
+Source sans pro
+
+#5)
+
