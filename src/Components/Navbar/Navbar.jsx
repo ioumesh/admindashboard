@@ -2,7 +2,6 @@ import React from "react";
 import "./navbar.scss";
 import {
   NotificationsNone,
-  Language,
   Settings,
   Apps,
 } from "@material-ui/icons";

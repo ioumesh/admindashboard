@@ -1,6 +1,7 @@
 import React from "react";
 import "./sidebar.scss";
 import Menu from "../Menu/Menu";
+
 import {
   LineStyle,
   Timeline,
@@ -20,22 +21,29 @@ const Sidebar = () => {
       <div className="sidebarContainer">
         <div className="sidebarWrapper">
           <div className="sidebarMenu">
+            
             <Menu
               title={"Dashboard"}
               Icon1={LineStyle}
+              route1={'/'}
               Option1={"Home"}
               Icon2={Timeline}
+              route2={'/product'}
               Option2={"Product"}
               Icon3={TrendingUp}
+              route3={'/sales'}
               Option3={"Sales"}
             />
             <Menu
               title={"Quick Menu"}
               Icon1={PermIdentity}
+              route1={'/users'}
               Option1={"Users"}
               Icon2={Storefront}
-              Option2={"Product"}
+              route2={'/Store'}
+              Option2={"Store"}
               Icon3={AttachMoney}
+              route3={'/transaction'}
               Option3={"Transactions"}
             />
             <Menu
